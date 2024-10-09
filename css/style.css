@@ -1,0 +1,143 @@
+/* BANNER STYLING */
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/bannerImage.png');
+    background-size: 100% 680px;
+    background-position: center 60%;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 75px;
+    /* Makes the banner below the link */
+    display: flex;
+    align-items: flex-end;
+    /* Aligns items at the bottom */
+    justify-content: center;
+    position: relative;
+    /* Allows positioning of child elements */
+
+}
+
+/* Style for text in the banner */
+.banner-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    /*transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Style for main heading in the banner */
+.banner-text h1 {
+    font-size: 2.0rem;
+    color: #ffcc00;
+    margin: 0;
+}
+
+/* Style for paragraph in the banner */
+.banner-text p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+}
+
+
+
+/* BODY STYLING */
+body {
+    background: linear-gradient(to right, #FFD500, #FF971C, #FF3213);
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER STYLING */
+header {
+    background-color: #223b72;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+
+}
+
+/* Header main title styling */
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Header paragraph styling */
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+
+/* LOGO STYLING */
+.logo {
+    height: 40px;
+    margin-right: auto;
+}
+
+
+/* NAVIGATION BAR STYLING */
+.navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+/* Navigation menu styling */
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+/* Navigation list item styling */
+.navbar ul li {
+    display: inline;
+}
+
+/* Navigation link styling */
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: #b3d3e2bd;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(118, 168, 184);
+}
+
+
+/* CONTENT SECTION STYLING */
+.content {
+    padding: 20px;
+}
+
+.content section {
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
