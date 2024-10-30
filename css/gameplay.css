@@ -8,6 +8,51 @@
     margin: 0;
 }
 
+/* --- NAVIGATION BAR STYLING ( HOME BUTTON ONLY ) --- */
+.navbar {
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+/* Navigation menu styling */
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+/* Navigation list item styling */
+.navbar ul li {
+    display: inline;
+}
+
+/* Navigation link styling */
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: #b3d3e2bd;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(118, 168, 184);
+    color: white;
+}
+
+
 /* Section Styling */
 .section {
     margin: 20px 8.5% auto 8.5%;
@@ -80,4 +125,47 @@ main{
 .sections-container{
     width: 100%;
     justify-content: center;
+}
+
+/* --- FOOTER SECTION FOR TETRIS RESOURCES --- */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    margin-top: 120px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #5990e2;
+
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* CSS styles begin to differ from Yen's styles */ 
+
+.tetris-page-title{
+    margin-left: 8.5%;
 }
