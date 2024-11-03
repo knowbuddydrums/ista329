@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html  lang="en">
 <head>
-<title>  </title>
-<meta charset="utf-8"
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/contactCss/contact.css"> 
+    <link rel="stylesheet" href="../css/historyCSS/section-info-styles.css">	
+	<link rel="stylesheet" href="../css/historyCSS/scroll.css">
+	<link rel="stylesheet" href="../css/historyCSS/footer.css">
+    <link rel="stylesheet" href="../css/historyCSS/navbar.css">
+    <link rel="stylesheet" href="../css/tetrisLetter.css">
+	 
+	<script src="../js/contact.js" defer></script> <!-- JS Link -->
 </head>
+
 <body>
 
+	<!-- Header image -->
+	<header>
+        <img src="../images/contact.png" alt="Header Image" class="header-image">
+    </header>
 
+    <!-- Navigation links to other pages -->
+    <nav class="navbar">
+        <img src="../images/tetris.gif" alt="Logo" class="logo">
+        <ul>
+            <li><a href="../index.html" target="_blank">Home</a></li>
+            <li><a href="#top" id="backToTop">Back to Top</a></li>
+        </ul>
+    </nav>
+	
+	<h1>
+        <span class="tetris-history">Contact Us</span>
+    </h1>
+	
+	<main>
+	    <!-- Form -->
+		<form action="https://api.web3forms.com/submit" method="post">
+			<input type="hidden" name="access_key" value="ca5c1f61-9438-4ae0-903a-a04cac5d29ff">
+			<div class="input-box-wrapper">
+				<p>
+					<input type="text" id="name" name="name" placeholder="Name" autocomplete="off" required>
+				</p>
 
+				<p>
+					<input type="email" id="email" name="email" placeholder="Email" autocomplete="off" required>
+				</p>
+
+				<p>
+					<textarea id="message" name="message" rows="6" cols="60" placeholder="Enter your message" autocomplete="off" required></textarea>
+				</p>
+				
+				<button type="submit">Send Message</button>
+			</div>
+			
+		</form>
+	
+	</main>
+	
+	<!-- Footer Section for Links to Other Sources -->
+    <footer>
+        <img src="../images/tetris.gif" alt="Logo" class="logo">
+
+        <h2>Learn More About Tetris (Resources)</h2>
+        <p>Information on this site is gathered from various sources. For more details, see the links below.</p>
+        <ul>
+            <li><a href="https://tetris.com/history-of-tetris" target="_blank">Time Line History</a></li>
+            <li><a href="https://www.aclockworkbrain.com/tetris-history" target="_blank">History of Tetris: From Origin
+                    to Present</a></li>
+            <li><a href="https://liquipedia.net/tetris/Classic_Tetris_World_Championship" target="_blank">Classic Tetris
+                    World Championship</a></li>
+
+            <li><a href="https://www.griproom.com/fun/20-fun-facts-about-tetris" target="_blank">Tetris Trivia: 20 Fun
+                    Facts</a></li>
+            <li><a href="https://unsplash.com/s/photos/tetris" target="_blank">Tetris Photos on Unsplash</a></li>
+        </ul>
+
+        <div class="footer-links">
+            <a href="../subpages/aboutus.html" target="_blank">About Us</a> |
+            <a href="../subpages/contact.html" target="_blank">Contact Us</a>
+        </div>
+
+        <p>&copy; 2024 Tetris For Life. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
