@@ -1,0 +1,8 @@
+/* Style for the sources or acknowledgment line */
+.sources {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: left;
+}

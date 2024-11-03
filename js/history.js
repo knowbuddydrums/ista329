@@ -7,6 +7,10 @@ function toggleActiveClass(event) {
     if (window.getSelection().toString().length > 0) {
         return;
     }
+    // Prevent section from closing when clicking on a link
+    if (event.target.tagName.toLowerCase() === 'a') {
+        return;
+    }
 
     this.classList.toggle('active'); // Toggle active class if no text is selected
 }
@@ -18,7 +22,9 @@ sections.forEach(function (section) {
 
 // Mouseover effect
 function myMouseoverHandler(event) {
-    event.target.style.backgroundColor = "#DDA0DD";
+    if (!event.target.classList.contains("revealed")) {
+        event.target.style.backgroundColor = "#DDA0DD";
+    }
 }
 
 function myMouseoutHandler(event) {
@@ -29,7 +35,8 @@ function myMouseoutHandler(event) {
 function myClickHandler(event) {
     event.target.classList.add("revealed"); // Add the revealed class
     event.target.style.cursor = "default"; // Change cursor to default to indicate it's no longer clickable
-    event.target.removeEventListener("click", myClickHandler); // Remove the click event listener
+    event.target.removeEventListener("click", myClickHandler); 
+
 }
 
 // Register the event handlers
