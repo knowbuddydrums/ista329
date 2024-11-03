@@ -1,0 +1,24 @@
+/* --- SCROLL BACK TO THE TOP ---*/
+/* BACK TO TOP link styling */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    /* Adjusts it to be centered */
+    transform: translateX(-50%);
+    background-color: #b3d3e2bd;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: none;
+    /* Initially hidden */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Optional: Hover effect for Back to Top link */
+#backToTop:hover {
+    background-color: rgb(118, 168, 184);
+    color: white;
+}
