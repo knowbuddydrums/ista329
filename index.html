@@ -5,67 +5,70 @@
     <meta charset="UTF-8">
     <title>Home Page</title>
     <!-- go up to the root directory and into css folder -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
 </head>
 
 <body>
 
-    <!-- Banner holder: Place anything you want inside the banner here -->
-    <div class="banner">
-        <div class="banner-text">
-            <h1>Welcome to Tetris World</h1>
-            <p>Explore the history, master the gameplay, and dive deep into the stories behind the legends of the
-                world’s most iconic puzzle game.</p>
-        </div>
+    <div class="logo">
+        <img src="./images/tetris.gif" alt="Logo">
     </div>
 
-    <!-- Navigation links to other pages-->
-    <nav class="navbar">
-        <img src="images/tetris.gif" alt="Logo" class="logo">
-
+	<nav class="navbar">
         <ul>
-            <li><a href="index.html" target="_blank">Home</a></li>
-            <li><a href="subpages/aboutus.html" target="_blank">About Us</a></li>
-            <li><a href="subpages/history.html" target="_blank">History of Tetris</a></li>
-            <li><a href="subpages/gameplay.html" target="_blank">Game Play</a></li>
-            <li><a href="subpages/legends.html" target="_blank">Legend</a></li>
-            <li><a href="subpages/activities/activities.html" target="_blank">Activities</a></li>
-            <li><a href="subpages/contact.html" target="_blank">Contact Us</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./subpages/aboutus.html">About Us</a></li>
+            <li><a href="./subpages/history.html" >History</a></li>
+            <li><a href="./subpages/gameplay.html">Game Play</a></li>
+            <li><a href="./subpages/legends.html">Legends</a></li>
+            <li><a href="./subpages/activities/guest.html">Activities</a></li>
+            <li><a href="./subpages/contact.html">Contact Us</a></li>
         </ul>
-    </nav>
+	</nav>
 
-    <!-- Header section of the website -->
+    <!-- Navigation links to other pages-->
     <header>
-        <h1>Tetris Main Website</h1>
-        <p>Welcome to our website</p>
+    <!-- Banner holder: Place anything you want inside the banner here -->
+        <div class="banner">
+            <img src="./images/bannerImage.png">
+            <div class="banner-text">
+                <h1>Welcome to Tetris World</h1>
+                <p>Explore the history, master the gameplay, and dive deep into the stories behind the legends of the
+                    world’s most iconic puzzle game.</p>
+            </div>
+        </div>
     </header>
 
-    <!-- Main content of the website -->
-    <main class="content">
+    <div class="content">
+
         <section>
-            <h2>About Tetris</h2>
-            <p>This is a placeholder for information. I will write it long enough to see if the page can scroll.</p>
-            <p>This is a placeholder for information. I will write it long enough to see if the page can scroll.</p>
+            <h2><a href="./subpages/gameplay.html">Gameplay Overview</a></h2>
+            <p>What is Tetris? Here is an overview, as well as links to versions you can play in your browser!</p>
         </section>
 
         <section>
-            <h2>Gameplay Overview</h2>
-            <p>This is a placeholder for information. I will write it long enough to see if the page can scroll.</p>
-            <p>This is a placeholder for information. I will write it long enough to see if the page can scroll.</p>
+            <h2><a href="./subpages/history.html">The History of Tetris</a></h2>
+            <p>Learn about the history of Tetris' development and professional scene.</p>
         </section>
 
         <section>
-            <h2>Legends of Tetris</h2>
-            <p>This is a placeholder for information. I will write it long enough to see if the page can scroll.</p>
-            <p>This is a placeholder for information. I will write it long enough to see if the page can scroll.</p>
+            <h2><a href="./subpages/legends.html">Legends of Tetris</a></h2>
+            <p>Learn about the most legendary Tetris masters in history!</p>
         </section>
 
         <section>
-            <h2>Activities and Challenges</h2>
-            <p>This is a placeholder for information. I will write it long enough to see if the page can scroll.</p>
-            <p>This is a placeholder for information. I will write it long enough to see if the page can scroll.</p>
+            <h2><a href="./subpages/activities/whatblock.html">Activities</a> </h2>
+            <p>Sign our <a href="./subpages/activities/guest.html">guestbook!</a> </p>
+            <p>Ever wonder which Tetris block fits your personality? Take our <a href="./subpages/activities/whatblock.html" target="_blank">quiz!</a> </p>
         </section>
-    </main>
+
+        <section style="margin-bottom: 400px">
+            <h2><a href="./subpages/aboutus.html">About us</a></h2>
+            <p>Learn about the developers of this website!</p>
+            <p><a href="./subpages/contact.html">Contact us</a> directly! We'd love to hear from you! </p>
+        </section>
+    </div>
 
 
 </body>

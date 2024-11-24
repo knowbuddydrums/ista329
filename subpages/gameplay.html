@@ -1,12 +1,195 @@
 <!DOCTYPE html>
-<html  lang="en">
+<html lang="en">
+
+<!-- 
+Author: Jeziel Banos Gonzalez
+File: gameplay.html
+Description: This HTML file contains the content for the gameplay page of our
+website. This page shows different types of Tetris games, such as the classic
+Tetris and Tetris 99. The goal of this page is to inform the visitor about
+how tetris has evolved through different twist added to the original gameplay
+and show video as the new exciting versions of tetris. Useful resources for
+each game is also included.
+-->
+
 <head>
-<title>  </title>
-<meta charset="utf-8"
+    <meta charset="utf-8">
+    <title>Tetris Gameplay</title>
+    <!--<link rel="stylesheet" href="../css/gameplay.css"> -->
+    <link rel="stylesheet" href="../css/gameplayCSS/section-info-styles.css">	
+	<link rel="stylesheet" href="../css/gameplayCSS/footer.css">
+    <link rel="stylesheet" href="../css/gameplayCSS/general.css">
+    <link rel="stylesheet" href="../css/gameplayCSS/navbar.css">
+    <link rel="stylesheet" href="../css/gameplayCSS/scroll.css">
+    <link rel="stylesheet" href="../css/tetrisLetter.css">
+    <link rel="stylesheet" href="../css/gameplayCSS/gameplay.css">
+
+    <script src="../js/history.js" defer></script> <!-- JS Link -->
 </head>
+
 <body>
 
+    <header>
+        <img src="../images/tetrisBackground.jpeg" alt="Header Image" class="header-image">
+    </header>
+
+    <!-- Navigation links to other pages -->
+    <nav class="navbar">
+        <img src="../images/tetris.gif" alt="Logo" class="logo">
+        <ul>
+            <li><a href="../index.html" target="_blank">Home</a></li>
+            <li><a href="#top" id="backToTop">Back to Top</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="tetris-page-title">
+        <span class="tetris-t">T</span><span class="tetris-e">e</span><span class="tetris-t2">t</span><span
+            class="tetris-r">r</span><span class="tetris-i">i</span><span class="tetris-s">s</span>
+        <span class="tetris-gameplay">Gameplay</span>
+    </h1>
 
 
+
+    <!-- Main content area -->
+    <main>
+
+        <div class = "sections-container">
+            <!-- Classic Tetris Section -->
+            <section class="section">
+                <h2>Classic Tetris</h2>
+                <div class="hidden-info">
+                    <h3>Gameplay Description:</h3>
+                    <p>In Classic Tetris multiple shapes of varying color drop from the top of the screen.
+                        The player is able to rotate and horizontally move the shapes as they fall to the
+                        bottom of the play area. The goal of the game is for the player to complete as many
+                        lines as possible with the falling shapes before reaching the top of the play area.
+                        In this game, the player advances to the next level after completing ten lines on a given
+                        level. As levels increase, the speed at which the blocks fall increase making the game
+                        more difficult as time progresses.
+                    </p>
+
+                    <h3>Gameplay Video:</h3>
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/U-2j-gAsu5w">
+                    </iframe>
+
+                    <h3>Resources:</h3>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Tetris" target="_blank">Tetris Wikipedia</a></li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Tetris 99 Section -->
+            <section class="section">
+                <h2>Tetris 99</h2>
+                <div class="hidden-info">
+                    <h3>Gameplay Description:</h3>
+                    <p>
+                        Tetris 99 mechanically plays very similar to classic tetris. The main difference is that 99 players are playing all at once. 
+                        The goal objective of Tetris 99 is to be the last player standing. In this version of tetris clearing lines sends "garbage" 
+                        blocks to opposing players making their play space smaller. This makes it so they reach the top of the screen faster, leading to them being 
+                        eliminated from the game. 
+                    </p>
+
+                    <h3>Gameplay Video:</h3>
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/s1f8SmJYSz8"></iframe>
+
+                    <h3>Resources:</h3>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Tetris_99" target="_blank">Tetris 99 Wikipedia</a></li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Tetris Effect Section -->
+            <section class="section">
+                <h2>Tetris Effect</h2>
+                <div class="hidden-info">
+
+                    <h3>Gameplay Description:</h3>
+                    <p>
+                       In Tetris Effect the majority of the gameplay mechanics are the same as the original Tetris. Tetris Effect
+                       is a visually more dynamic experience than the original Tetris as new animations have been created and each stage has
+                       its own unique graphics. The new twist Tetris Effect introduces is the "Zone". Clearing lines increases the Zone meter 
+                       which a player is able to active. When the Zone is active gravity stops and finished lines move to the bottom of the play area. 
+                       The Zone state ends when time runs out or when the player reaches the top of the play area. Once the Zone is finished all finished
+                       lines are cleared. The highest Zone clear is named "WTFtris", which requires the player to finish 25+ lines while in the 
+                       Zone state.
+                    </p>
+
+                    <h3>Gameplay Video:</h3>
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/urbLIyd-VsQ"></iframe>
+
+                    <h3>Resources:</h3>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Tetris_Effect" target="_blank">Tetris Effect Wikipedia</a></li>
+                    </ul>
+                    
+                </div>
+            </section>
+
+
+            <!-- Sand Tetris Section -->
+            <section class="section">
+                <h2>Sand Tetris (SANDTRIS)</h2>
+                <div class="hidden-info">
+
+                    <h3>Gameplay Description:</h3>
+                    <p>
+                        Sand Tetris, also known as Sandtris is a game based off the original Tetris. Sandtris introduces one new 
+                        gameplay element. Falling blocks no longer stay as blocks one they have been placed. Instead, the blocks become sand.
+                        To clear a line in Sandtris sand of the same color must reach from the left of the gameplay area, to the right of the 
+                        gameplay area. This game requires the player to be careful when placing blocks to prevent unwanted sand colors from interfering
+                        with a potential line clear. 
+                    </p>
+
+                    <h3>Gameplay Video:</h3>
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/p6ABJ8CaDFk"></iframe>
+
+                    <h3>Resources:</h3>
+                    <ul>
+                        <li><a href="https://sandtris.com/" target="_blank">Sandtris Game Link</a></li>
+                    </ul>
+                </div>
+
+                
+            </section>
+        </div>
+
+
+        
+
+
+        
+    </main>
+
+    <!-- Footer Section for Links to Other Sources -->
+    <footer>
+        <img src="../images/tetris.gif" alt="Logo" class="logo">
+
+        <h2>Learn More About Tetris (Resources)</h2>
+        <p>Information on this site is gathered from various sources. For more details, see the links below.</p>
+        <ul>
+            <li><a href="https://tetris.com/history-of-tetris" target="_blank">Time Line History</a></li>
+            <li><a href="https://www.aclockworkbrain.com/tetris-history" target="_blank">History of Tetris: From Origin
+                    to Present</a></li>
+            <li><a href="https://liquipedia.net/tetris/Classic_Tetris_World_Championship" target="_blank">Classic Tetris
+                    World Championship</a></li>
+
+            <li><a href="https://www.griproom.com/fun/20-fun-facts-about-tetris" target="_blank">Tetris Trivia: 20 Fun
+                    Facts</a></li>
+            <li><a href="https://unsplash.com/s/photos/tetris" target="_blank">Tetris Photos on Unsplash</a></li>
+        </ul>
+
+        <div class="footer-links">
+            <a href="../subpages/aboutus.html" target="_blank">About Us</a> |
+            <a href="../subpages/contact.html" target="_blank">Contact Us</a>
+        </div>
+
+        <p>&copy; 2024 Tetris For Life. All Rights Reserved.</p>
+    </footer>
 </body>
+
 </html>
