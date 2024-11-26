@@ -48,7 +48,7 @@ body h1 {
 }
 
 .highlight-link:hover {
-    color: #d93103;
+    color: #4b0082;
     background-color: #d3d3e0;
     border-radius: 4px;
     font-weight: bold;
@@ -83,3 +83,4 @@ main p {
     height: auto;
     margin-bottom: 1rem;
 }
+
