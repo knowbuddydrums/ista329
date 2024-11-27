@@ -22,8 +22,17 @@
         </ul>
 	</nav>
 
-    <p style="margin-top: 1000px">So much content! </p>
-    <p style="margin-top: 1000px">So much content! </p>
+    <form id="guestbookEntry">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="comment">Comment:</label>
+        <textarea for="comment" name="comment" rows="4"></textarea>
+        <button type="submit">Submit</button>
+    </form>
 
+    <div id="comments">
+    </div>
+
+    <script src="guestbook.js"></script>
 </body>
 </html>

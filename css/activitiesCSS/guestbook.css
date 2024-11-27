@@ -1,5 +1,6 @@
 body {
     font-family: Helvetica, sans-serif;
+    color: white;
     margin: 0;
     padding: 0;
     background:
@@ -10,4 +11,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+form {
+    opacity: 0.9
 }
