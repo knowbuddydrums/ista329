@@ -1,6 +1,6 @@
 /* General Body Style */
 body {
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     color: #121010;
     font-family: Arial, sans-serif;
     text-align: left;
@@ -83,4 +83,3 @@ main p {
     height: auto;
     margin-bottom: 1rem;
 }
-
