@@ -1,6 +1,5 @@
 
-Authors: Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu), 
-Yen L, 
+Authors:Yen L, Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu),  
 Buddy, 
 Tay, 
 
