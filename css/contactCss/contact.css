@@ -97,3 +97,48 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     width: 55%; 
 }
+
+/* Dark mode */
+.darkmode {
+    background-color: #121010;
+    color: white;
+}
+
+
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 370px;
+    right: 20px;
+}
+
+.darkmode #theme-switch{
+    background-color: #121010;
+}
+
+.darkSVG{
+    fill: #121010;
+}
+
+.lightSVG{
+    fill: #F5F5F5;
+}
+
+#theme-switch svg:last-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
