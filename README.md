@@ -1,10 +1,9 @@
----
+
 Authors: Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu), 
 Yen L, 
 Buddy, 
 Tay, 
 
----
 ## Notes
 
 Necessary files and folders: index.html, css folder, images folder, js folder, music folder, subpages folder
