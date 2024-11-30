@@ -1,9 +1,8 @@
 ---
-Authors:
-Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu)
-Yen L
-Buddy
-Tay
+Authors: Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu), 
+Yen L, 
+Buddy, 
+Tay, 
 
 ---
 ## Notes
