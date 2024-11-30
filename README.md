@@ -1,6 +1,6 @@
 
 Authors:Yen L, Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu),  
-Buddy, 
+Buddy [buddy@arizona.edu](buddy@arizona.edu), 
 Tay, 
 
 ## Notes
