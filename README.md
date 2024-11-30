@@ -21,3 +21,7 @@ images folder: This folder contains all images which are used throughout the web
 js folder: This folder contains js scripts which are used for a more dynamic experience across the site.
 music folder: This folder contains audio files which are used by some of the site's pages.
 subpages folder: This folder contains the different html files that make up the subpages of the webite, this folder does not contain the home page.
+
+## Work Split
+
+Jeziel Banos Gonzalez: Responsible for the Legends and gameplay sub pages. Also wrote the README.md file.
