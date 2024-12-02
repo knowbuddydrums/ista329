@@ -36,7 +36,7 @@ document.getElementById("backToTop").addEventListener("click", function (event) 
 window.addEventListener("scroll", function () {
     const button = document.getElementById("backToTop");
     const footer = document.querySelector("footer");
-    const footerRect = footer.getBoundingClientRect(); // Get footer position
+    const footerRect = footer.getBoundingClientRect();
 
     // Show button when the footer is nearing the viewport
     if (footerRect.top < window.innerHeight && footerRect.bottom > 0) {
@@ -45,6 +45,7 @@ window.addEventListener("scroll", function () {
         button.style.display = "none"; 
     }
 });
+
 
 document.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', () => {
