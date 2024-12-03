@@ -8,6 +8,7 @@ body {
     margin: 0;
 }
 
+/* Dark mode light mode styles */
 
 .darkmode {
     background-color: #121010;
@@ -58,48 +59,6 @@ body h1 {
 .darkmode #theme-switch svg:last-child{
     display: block;
 }
-
-
-
-/* --- FOR CHALLENGE QUESTION SECTION ---*/
-.spacing {
-    margin-top: 50px;
-}
-
-/* Highlighted Clickable Text */
-.highlight {
-    /* Change cursor on hover */
-    cursor: pointer;
-    color: transparent;
-    background-color: #444;
-    transition: color 0.3s ease;
-}
-
-
-/* Revealed class once clicked */
-.highlight.revealed {
-    color: rgb(161, 20, 91);
-    background-color: transparent;
-    font-weight: bold;
-
-}
-
-
-/* Link Styling --- LINK TO OTHER PAGE WHEN USER CLICKS ON THAT ---*/
-.highlight-link {
-    color: #0056b3;
-    text-decoration: none;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    text-decoration: underline;
-}
-
-.highlight-link:hover {
-    color: #d93103;
-    background-color: #d3d3e0;
-    border-radius: 4px;
-    font-weight: bold;
-}
-
 
 
 /* Paragraph styling for interactive message */
