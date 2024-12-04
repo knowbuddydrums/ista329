@@ -1,0 +1,41 @@
+/* Tetris Letter Colors */
+/* This stylesheet defines colors for each letter of the "Tetris" text */
+
+span {
+    display: inline;
+}
+
+.tetris-t {
+    /* blue */
+    color: #0E6BA8;
+}
+
+.tetris-e {
+    /* orange */
+    color: #FF7F2A;
+}
+
+.tetris-t2 {
+    /* yellow */
+    color: #F4C300;
+}
+
+.tetris-r {
+    /* green */
+    color: #4CAF50;
+}
+
+.tetris-i {
+    /* purple */
+    color: #A000A0;
+}
+
+.tetris-s {
+    /* red */
+    color: #E53935;
+}
+
+.tetris-aboutUs {
+    /* main text color for History */
+    color: #121010;
+}

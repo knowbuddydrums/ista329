@@ -35,7 +35,12 @@ span {
     color: #E53935;
 }
 
-.tetris-history {
+.tetris-aboutUs {
     /* main text color for History */
     color: #121010;
+}
+
+/* CHANGE THE 'HISTORY' WORD FROM BLACK TO WHITE WHEN USING DARK MODE */
+.darkmode .tetris-history {
+    color: white;
 }

@@ -8,6 +8,71 @@ body {
     margin: 0;
 }
 
+/* DARK MODE  */
+.darkmode {
+    background-color: #121010;
+    color: white;
+}
+
+#theme-switch {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 370px;
+    right: 20px;
+}
+
+.darkmode #theme-switch {
+    background-color: #121010;
+}
+
+.darkSVG {
+    fill: #121010;
+}
+
+.lightSVG {
+    fill: #F5F5F5;
+}
+
+#theme-switch svg:last-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+    display: block;
+}
+
+
+
+.darkmode .audio-section {
+    /* Match the dark mode background */
+    background-color: #121010;
+    /* Change the text color to white */
+    color: white;
+    border-color: #c7bc27;
+}
+
+/* Headings and paragraphs also change to white */
+.darkmode .audio-section h2,
+.darkmode .audio-section p {
+    color: white;
+}
+
+
+
+
+
+
 body h1 {
     font-size: 36px;
     margin-left: 25px;
