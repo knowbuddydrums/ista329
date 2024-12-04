@@ -52,3 +52,8 @@ footer ul {
     list-style-type: none;
     padding: 0;
 }
+
+/*footer class logo child*/
+footer .logo {
+    width: 15%
+}
