@@ -43,6 +43,30 @@ nav ul li a {
     box-sizing: border-box;
 }
 
-nav ul li a:hover {
-    background-color: #fc0;
+.home:hover {
+    background-color: #0E6BA8;
+}
+
+.about-us:hover {
+    background-color: #FF7F2A;
+}
+
+.history:hover {
+    background-color: #F4C300;
+}
+
+.gameplay:hover {
+    background-color: #4CAF50;
+}
+
+.legends:hover {
+    background-color: #A000A0;
+}
+
+.guest:hover {
+    background-color: #E53935;
+}
+
+.contact:hover {
+    background-color: #0E6BA8;
 }
