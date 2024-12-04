@@ -27,14 +27,14 @@ Known Bugs: None
 
 ## Work Split
 
-Yen Lai: Responsible for the History and Home page. Also created the main styles of the website, such as the color pallette. Implemented the "back to top" button seen on all pages.
+Yen Lai: Responsible for the History and Quiz Results page. Additionally implemented the JavaScript functionality for section toggling, hover effects, click to reveal, and the back to top button.
 
 Jeziel Banos Gonzalez: Responsible for building the Legends and Gameplay pages. Additionally implemented the darkmode and lightmode button across pages that were deemed necessary. Responsible for the README.md file.
 
-Tay: 
+Tay: Responsible for the homepage (index.html) and the guest book.
 
-Buddy: 
+Buddy: Responsible for building the About Us page, configured the GitHub repo used by the team.
 
-Jenny:
+Jenny: Responsible for the Contact Us page, including the set up of web3forms
 
 
