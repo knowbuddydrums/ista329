@@ -6,13 +6,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../css/activitiesCSS/navbar.css">
     <link rel="stylesheet" href="../../css/activitiesCSS/footer.css">
-    <link rel="stylesheet" href="../../css/activitiesCSS/general.css">
     <link rel="stylesheet" href="../../css/activitiesCSS/scroll.css">
     <link rel="stylesheet" href="../../css/activitiesCSS/section-info-styles.css">
     <link rel="stylesheet" href="../../css/activitiesCSS/sources.css">
     <link rel="stylesheet" href="../../css/activitiesCSS/guest.css">
-    <script src="../../js/guestbook.js"></script>
-    <script src="../../js/darkmode.js"></script>
 </head>
 
 <body>
@@ -49,39 +46,23 @@
 	
 
     <main>
-        <form id="guestbookEntry">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="comment">Comment:</label>
-            <textarea for="comment" name="comment" rows="4"></textarea>
-            <button type="submit">Submit</button>
-        </form>
+	    <!-- Form -->
+		<form action="https://api.web3forms.com/submit" method="post">
+			<input type="hidden" name="access_key" value="ca5c1f61-9438-4ae0-903a-a04cac5d29ff">
+			<div class="input-box-wrapper">
+				<p>
+					<input type="text" id="name" name="name" placeholder="Name" autocomplete="off" required>
+				</p>
 
-        <div id="comments">
-        </div>
-    </main>
+				<p>
+					<textarea id="message" name="message" rows="3" cols="60" placeholder="Comment..." autocomplete="off" required></textarea>
+				</p>
+				
+				<button type="submit">Sign</button>
+			</div>
+			
+		</form>
 
-    <main>
-        <form id="guestbookEntry">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="comment">Comment:</label>
-            <textarea for="comment" name="comment" rows="4"></textarea>
-            <button type="submit">Submit</button>
-        </form>
-
-        <div id="comments">
-        </div>
-    </main>
-
-    <main>
-        <form id="guestbookEntry">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="comment">Comment:</label>
-            <textarea for="comment" name="comment" rows="4"></textarea>
-            <button type="submit">Submit</button>
-        </form>
 
         <div id="comments">
         </div>
@@ -116,6 +97,8 @@
         <!-- Copyright Information -->
         <p>&copy; 2024 Tetris For Life. All Rights Reserved.</p>
     </footer>
+    <script src="../../js/guestbook.js"></script>
+    <script src="../../js/darkmode.js"></script>
 </body>
 
 </html>
