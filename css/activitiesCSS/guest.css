@@ -65,7 +65,7 @@ input:focus, textarea:focus {
 }
 
 /* Submit button */
-button {
+.input {
 	color: #1A1A2E;
 	background-color: #ffcc00;
 	border: 1px solid black;
@@ -82,7 +82,7 @@ button {
 }
 
 /* Style when hovering over submit button */
-button:hover {
+.input:hover {
 	transform: scale(1.02);
 	background-color: #ff9900;
 	/*opacity: 80%;*/

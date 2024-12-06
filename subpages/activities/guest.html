@@ -4,13 +4,14 @@
 <head>
     <title>Tetris World Guestbook</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../../css/activitiesCSS/navbar.css">
-    <link rel="stylesheet" href="../../css/activitiesCSS/footer.css">
+    <link rel="stylesheet" href="../../css/activitiesCSS/navbar_footer.css">
     <link rel="stylesheet" href="../../css/activitiesCSS/scroll.css">
-    <link rel="stylesheet" href="../../css/activitiesCSS/section-info-styles.css">
-    <link rel="stylesheet" href="../../css/activitiesCSS/sources.css">
+    <link rel="stylesheet" href="../../css/activitiesCSS/table.css">
     <link rel="stylesheet" href="../../css/activitiesCSS/guest.css">
     <link rel="stylesheet" href="../../css/activitiesCSS/tetrisLetter.css">
+
+    <script src="../../js/guestbook.js" defer></script>
+    <script src="../../js/darkmode.js" defer></script>
 </head>
 
 <body>
@@ -62,40 +63,45 @@
 					<textarea id="message" name="message" rows="3" cols="60" placeholder="Comment..." autocomplete="off" required></textarea>
 				</p>
 				
-				<button type="submit">Sign</button>
+				<button class="input" type="submit">Sign</button>
 			</div>
 			
 		</form>
 
 
-        <section class="section">
         <table id="">
             <tr>
-                <th id="names-title">Names</th>
-                <th id="comment-title">Comments</th>
+                <th id="name">Patrick Star</th>
             </tr>
             <tr>
-                <td id="name">Patrick Star</td>
-                <td id="comment">FINNLAND!!!!</td>
+                <td>
+                    <div class="comment">FINNLAND!!!!</div>
+                </td>
             </tr>
             <tr>
-                <td id="name">Spongebob Squarepants</td>
-                <td id="comment">I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY</td>
+                <th id="name">Spongebob Squarepants</th>
             </tr>
             <tr>
-                <td id="name">Patrick Star</td>
-                <td id="comment">FINNLAND!!!!</td>
+                <td>
+                    <div class="comment">I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY</div>
+                    <button class="read-more">expand</button>
+                </td>
             </tr>
             <tr>
-                <td id="name">Abraham Lincoln</td>
-                <td id="comment">Four score and seven years ago our fathers brought forth, on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
+                <th id="name">Abraham Lincoln</th>
+                <td>November 19th, 1863</td>
+            </tr>
+            <tr>
+                <td>
+                <div class="comment">Four score and seven years ago our fathers brought forth, on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
 
 Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.
 
-But, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.</td>
+But, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.</div>
+                <button class="read-more">expand</button>
+                </td>
             </tr>
         </table>
-        </section>
     </main>
 
 	<!-- Back to Top Link -->
@@ -127,8 +133,6 @@ But, in a larger sense, we can not dedicate—we can not consecrate—we can not
         <!-- Copyright Information -->
         <p>&copy; 2024 Tetris For Life. All Rights Reserved.</p>
     </footer>
-    <script src="../../js/guestbook.js"></script>
-    <script src="../../js/darkmode.js"></script>
 </body>
 
 </html>
