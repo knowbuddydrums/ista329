@@ -121,6 +121,14 @@ footer p {
     text-decoration: underline;
 }
 
+/* LOGO FOR ALL PAGES */
+footer .logo {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
 footer ul {
     list-style-type: none;
     padding: 0;
