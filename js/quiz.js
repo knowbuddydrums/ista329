@@ -5,6 +5,9 @@ document.getElementById('quiz-form').addEventListener('submit', function (e) {
     // const submitButton = document.querySelector('.submit-btn');
     let score = 0;
 
+    // get the player's name
+    const playerName = document.getElementById('player-name').value;
+
     // check that all questions have been answered
     const questions = ['solving', 'planning', 'organization', 'adapt', 'decision'];
     let allAnswered = true;
@@ -45,7 +48,7 @@ document.getElementById('quiz-form').addEventListener('submit', function (e) {
     }
 
     // display the result
-    result.innerHTML = `<h2>Your Tetris Block: ${block}</h2>`;
+    result.innerHTML = `<h2>${playerName}! Your Tetris Block: ${block}</h2>`;
     const blockLink = `../../subpages/activities/quizResult/block${block}.html`;
     result.innerHTML += `<a href="${blockLink}" target="_blank" class="hover-link">View your block</a>`;
 });
