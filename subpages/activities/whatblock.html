@@ -13,7 +13,13 @@
         <h1>Fun Quiz: Discover Your Tetris Block Personality!</h1>
 
         <form id="quiz-form">
-            <!-- Questions here (same as previous) -->
+            <!-- Name Input -->
+            <div class="question">
+                <p>🎮 Enter your name:</p>
+                <input type="text" name="playerName" id="player-name" placeholder="Your Name" required>
+            </div> 
+            
+            <!-- Questions here -->
             <div class="question">
                 <p>🧠 How do you approach solving a difficult problem?</p>
                 <input type="radio" name="solving" value="1" id="problem-1" required><label for="problem-1">1 - Get
@@ -30,7 +36,8 @@
 
             <div class="question">
                 <p>🧩 How do you handle tasks that require strategic planning?</p>
-                <input type="radio" name="planning" value="1" id="plan-1" required><label for="plan-1">1 - Avoid them! 🙅‍♂️</label><br>
+                <input type="radio" name="planning" value="1" id="plan-1" required><label for="plan-1">1 - Avoid them!
+                    🙅‍♂️</label><br>
                 <input type="radio" name="planning" value="2" id="plan-2" required><label for="plan-2">2 - Try to wing
                     it </label><br>
                 <input type="radio" name="planning" value="3" id="plan-3" required><label for="plan-3">3 - Create a
