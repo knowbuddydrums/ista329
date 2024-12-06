@@ -7,14 +7,40 @@
     border-radius: 10px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, background-color 0.3s ease;
-    cursor: pointer;
     position: relative;
 }
 
-.section h2 {
-    font-size: 24px;
-    color: #ffcc00;
+.section table {
+    font-style: bold;
+    color: white;
+    border: none;
     position: relative;
+    width: 100%
+}
+
+table tr {
+    font-size: 20px;
+}
+
+table tr th {
+    font-size: 24px;
+}
+
+table td {
+    padding: 5% 2%;
+}
+
+table #name {
+    width: 30%;
+}
+
+table #comment {
+}
+
+table #names-title {
+}
+
+table #comment-title {
 }
 
 /* Hide Tetris Block by default */
@@ -30,58 +56,4 @@
     opacity: 0;
     /* Hidden by default */
     transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-/* Hover effect for Section */
-.section:hover {
-    transform: scale(1.02);
-    background-color: #2A2A4E;
-}
-
-.section:hover::after {
-    opacity: 1;
-    transform: rotate(90deg);
-}
-
-/* Active Class for Sections */
-.section.active {
-    background-color: #ff9900;
-    transform: none;
-}
-
-/* Hidden Info */
-.hidden-info {
-    display: none;
-}
-
-/* When user clicks on the section to read the info */
-.section.active .hidden-info {
-    display: block;
-    margin-top: 15px;
-    color: #121010;
-    overflow: hidden;
-}
-
-/* Image Styling */
-.section .hidden-info .float-left-image {
-    float: left;
-    width: 150px;
-    height: 200px;
-    margin-right: 15px;
-    border-radius: 8px;
-}
-
-/* --- FOR IMAGE INSIDE THE SECTION ONLY --- */
-/* Use Flexbox for layout */
-.image-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.image-container img {
-    width: 250px;
-    height: auto;
-    margin: 0 10px;
-    border-radius: 8px;
 }
