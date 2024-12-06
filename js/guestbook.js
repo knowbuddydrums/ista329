@@ -1,3 +1,5 @@
+
+
 // "read more" button
 document.addEventListener("DOMContentLoaded", () => {
     const readMoreButtons = document.querySelectorAll(".read-more");
@@ -23,6 +25,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// insert colspan of comments to spread across the field
+document.addEventListener("DOMContentLoaded", () => {
+    const commentCells = document.querySelectorAll("td:has(.comment)");
+    commentCells.forEach(cell => {
+        cell.setAttribute("colspan", "2");
+    });
+});
 
 
 // Smooth scroll to top 
