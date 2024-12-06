@@ -125,3 +125,74 @@ footer ul {
     list-style-type: none;
     padding: 0;
 }
+
+/* --- SCROLL BACK TO THE TOP ---*/
+/* BACK TO TOP link styling */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    /* Adjusts it to be centered */
+    transform: translateX(-50%);
+    background-color: #b3d3e2bd;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: none;
+    /* Initially hidden */
+    cursor: pointer;
+    z-index: 1000;
+    /* Removes underline */
+    text-decoration: none;
+}
+
+/* Optional: Hover effect for Back to Top link */
+#backToTop:hover {
+    background-color: rgb(118, 168, 184);
+    color: white;
+}
+
+
+/* Tetris Letter Colors */
+/* This stylesheet defines colors for each letter of the "Tetris" text */
+
+span {
+    display: inline;
+}
+
+.tetris-t {
+    /* blue */
+    color: #0E6BA8;
+}
+
+.tetris-e {
+    /* orange */
+    color: #FF7F2A;
+}
+
+.tetris-t2 {
+    /* yellow */
+    color: #F4C300;
+}
+
+.tetris-r {
+    /* green */
+    color: #4CAF50;
+}
+
+.tetris-i {
+    /* purple */
+    color: #A000A0;
+}
+
+.tetris-s {
+    /* red */
+    color: #E53935;
+}
+
+
+/* CHANGE THE 'HISTORY' WORD FROM BLACK TO WHITE WHEN USING DARK MODE */
+.darkmode .tetris-history {
+    color: white;
+}
