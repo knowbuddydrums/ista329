@@ -74,6 +74,7 @@ a {
     margin: 0;
 }
 
+<<<<<<< HEAD
 /* LOGO STYLING 
 .logo {
     display: flex;
@@ -92,6 +93,8 @@ a {
     object-fit: contain;
 }
 
+=======
+>>>>>>> 3ca19a0ff31337cb73fde88a62522239634f2cea
 /* CONTENT SECTION STYLING */
 .content {
     padding: 20px;

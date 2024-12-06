@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
-    <!-- go up to the root directory and into css folder -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/page_format.css">
 </head>
 
 <body>
@@ -15,21 +14,19 @@
         <img src="./images/tetris.gif" alt="Logo">
     </div>
 
-	<nav class="navbar">
+    <nav class="navbar">
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./subpages/aboutus.html">About Us</a></li>
-            <li><a href="./subpages/history.html" >History</a></li>
-            <li><a href="./subpages/gameplay.html">Game Play</a></li>
-            <li><a href="./subpages/legends.html">Legends</a></li>
-            <li><a href="./subpages/activities/guest.html">Activities</a></li>
-            <li><a href="./subpages/contact.html">Contact Us</a></li>
+            <li class="home"><a href="./index.html">Home</a></li>
+            <li class="about-us"><a href="./subpages/aboutus.html">About Us</a></li>
+            <li class="history"><a href="./subpages/history.html">History</a></li>
+            <li class="gameplay"><a href="./subpages/gameplay.html">Game Play</a></li>
+            <li class="legends"><a href="./subpages/legends.html">Legends</a></li>
+            <li class="guest"><a href="./subpages/activities/guest.html">Activities</a></li>
+            <li class="contact"><a href="./subpages/contact.html">Contact Us</a></li>
         </ul>
-	</nav>
+    </nav>
 
-    <!-- Navigation links to other pages-->
     <header>
-    <!-- Banner holder: Place anything you want inside the banner here -->
         <div class="banner">
             <img src="./images/bannerImage.png">
             <div class="banner-text">
@@ -70,7 +67,37 @@
         </section>
     </div>
 
+	<!-- Back to Top Link -->
+    <div>
+        <a href="#top" id="backToTop">Back to Top</a>
+    </div>
 
+
+    <!-- Footer Section for Links to Other Sources -->
+    <footer>
+        <!-- Logo Section -->
+        <img src="./images/tetris.gif" alt="Logo" class="logo">
+
+        <h2>About This Page</h2>
+        <p>This site is dedicated to the history, gameplay, and cultural impact of Tetris. Explore the content to learn
+            more about the game’s origins, evolution, and its significance in gaming culture.
+        </p>
+
+        <div class="footer-links">
+            <a href="./subpages/aboutus.html" target="_blank">About Us</a> |
+            <a href="./subpages/contact.html" target="_blank">Contact Us</a>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p>Email: <a href="mailto:tetrisforlife@list.arizona.edu">tetrisforlife@list.arizona.edu</a></p>
+        </div>
+
+        <!-- Copyright Information -->
+        <p>&copy; 2024 Tetris For Life. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
