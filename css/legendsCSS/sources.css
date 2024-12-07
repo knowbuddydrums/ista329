@@ -40,7 +40,7 @@
 
 .sources-note {
     font-size: 0.9em;
-    color: #777;
+    color: #0c0b0b;
     text-align: center;
     margin-top: 0;
     /* Adjust to make the text lower */
@@ -55,5 +55,25 @@ hr {
     /* Adjust the gap below the hr */
     border: none;
     height: 1px;
-    background-color: #ddd;
+    background-color: #0c0b0b;
+}
+
+.darkmode .sources-note {
+    font-size: 0.9em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    /* Adjust to make the text lower */
+    margin-bottom: 0;
+    /* Adjust margin below text */
+}
+
+.darkmode hr {
+    margin-top: 50px;
+    /* Move the hr down */
+    margin-bottom: 10px;
+    /* Adjust the gap below the hr */
+    border: none;
+    height: 1px;
+    background-color: #ffffff;
 }
