@@ -1,3 +1,15 @@
+/* 
+  File: style.css
+  
+  Description: style.css file from the AboutUs subdirectory.  
+  
+  This is a copy of the global style.css and my not be needed, however leaving in case we need
+  to make changes to the About Us styling.
+  
+  This is the .css file referenced in the AboutUs.html file.
+*/
+
+
 header {
     position: relative;
     margin: 0;

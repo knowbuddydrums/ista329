@@ -1,3 +1,15 @@
+/* 
+  Author: Buddy
+
+  File: aboutUs.js
+  
+  Description: aboutIs.js file from the AboutUs subdirectory.  
+  
+  Provides the JavaScript for the card flipping effect on the About Us Page
+  This is the .css file referenced in the AboutUs.html file.
+*/
+
+
 const sections = document.querySelectorAll('.section');
 
 // Click Listener Event
