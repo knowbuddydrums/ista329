@@ -111,7 +111,7 @@ a {
 }
 
 .content section {
-    background-color: darkcyan;
+    background-color: #333;
     opacity: 0.99;
     padding: 69px 50px;
     margin-top: 300px;
@@ -129,17 +129,18 @@ a {
     text-decoration: none;
 }
 
-.content p {
+.content h3 {
     color: whitesmoke;
     font-size: 16pt;
     line-height: 1.5;
+    font-weight: normal;
 }
 
-.content p a {
+.content h3 a {
     color: #fc0;
 }
 
-.content p a:hover {
+.content h3 a:hover {
     color: lightgray;
     text-decoration: underline;
 }
