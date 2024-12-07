@@ -1,21 +1,23 @@
-let themeMode = localStorage.getItem('darkmode')
-const themeSwitch = document.getElementById('theme-switch')
+document.addEventListener("DOMContentLoaded", () => {
+    const darkModeToggle = document.getElementById("dark-mode-toggle"); // Replace with your actual toggle button ID
+    const body = document.body;
 
-const enableDark = () => {
-    document.body.classList.add('darkmode')
-    document.getElementById("theme-switch").classList.add("darkmode")
-    localStorage.setItem('darkmode', 'active')
-}
+    // Load saved mode
+    const savedMode = localStorage.getItem("theme");
+    if (savedMode) {
+        body.classList.add(savedMode); // Apply saved mode
+    }
 
-const disableDark = () => {
-    document.body.classList.remove('darkmode')
-    document.getElementById("theme-switch").classList.remove("darkmode")
-    localStorage.setItem('darkmode', null)
-}
-
-if(themeMode === "active") enableDark()
-
-themeSwitch.addEventListener("click", () => {
-    themeMode = localStorage.getItem('darkmode')
-    themeMode !== "active" ? enableDark() : disableDark()
-})
+    // Toggle dark mode
+    if (darkModeToggle) {
+        darkModeToggle.addEventListener("click", () => {
+            if (body.classList.contains("darkmode")) {
+                body.classList.remove("darkmode");
+                localStorage.setItem("theme", ""); // Save light mode
+            } else {
+                body.classList.add("darkmode");
+                localStorage.setItem("theme", "darkmode"); // Save dark mode
+            }
+        });
+    }
+});
