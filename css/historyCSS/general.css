@@ -68,9 +68,16 @@ body {
     color: white;
 }
 
+.darkmode .highlight.revealed {
+    color: #FFD700;
+    font-weight: bold;
+}
 
-
-
+.darkmode .highlight-link {
+    color: #79c5ff;
+    /* Light blue for dark background */
+    text-decoration: underline;
+}
 
 
 body h1 {

@@ -204,3 +204,48 @@ span {
 .darkmode .tetris-history {
     color: white;
 }
+
+
+/* --- DROP DOWN MENU FOR ACTIVITIES SECTION --- */
+nav .guest {
+    position: relative;
+}
+
+nav .guest .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8efef;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav .guest:hover .dropdown {
+    display: block;
+}
+
+nav .dropdown li {
+    padding: 8px 10px;
+}
+
+nav .dropdown li a {
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    border: 2px solid #ddd;
+}
+
+nav .dropdown li a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+nav .dropdown {
+    width: 100%;
+}

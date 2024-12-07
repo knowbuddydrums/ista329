@@ -5,7 +5,7 @@
     margin-top: 10px;
     font-style: italic;
     text-align: left;
-    
+
 }
 
 /* Additional Styles for Links and Layout */
@@ -76,4 +76,13 @@ hr {
     border: none;
     height: 1px;
     background-color: #ffffff;
+}
+
+/* Dark mode adjustments */
+.darkmode .sources h2 {
+    color: white;
+}
+
+.darkmode .sources p {
+    color: #ddd;
 }
