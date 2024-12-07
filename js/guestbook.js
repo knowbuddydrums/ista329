@@ -1,38 +1,55 @@
+// guestbook handler BEGIN ************************************
 
+document.addEventListener("DOMContentLoaded", loadEntries);
 
-// "read more" button
-document.addEventListener("DOMContentLoaded", () => {
-    const readMoreButtons = document.querySelectorAll(".read-more");
+function loadEntries() {
+    let entries = JSON.parse(localStorage.getItem("guestbookEntries")) || [];
 
-    readMoreButtons.forEach(button => {
-        button.addEventListener("click", () => {
-            const comment = button.previousElementSibling; // Target the `.comment` div
-            const isExpanded = comment.classList.contains("expanded");
+    entries.forEach(function (entry) {
+        // fetch table element
+        let table = document.getElementById("guestbook-table");
 
-            if (isExpanded) {
-                // Collapse: Set max-height to the initial collapsed height
-                comment.style.maxHeight = "3.2rem";
-                button.textContent = "expand";
-            } else {
-                // Expand: Set max-height dynamically to fit content
-                comment.style.maxHeight = comment.scrollHeight + "px";
-                button.textContent = "collapse";
-            }
+        // create table elements to append
+        let nameRow = document.createElement("tr");
+        let commentRow = document.createElement("tr");
+        let nameData = document.createElement("th");
+        let commentData = document.createElement("td");
+        let commentDiv = document.createElement("div");
 
-            // Toggle the expanded class for styling purposes
-            comment.classList.toggle("expanded");
-        });
+        //populate table elements
+        nameData.id = "name";
+        nameData.textContent = entry.name;
+        commentDiv.className = "comment";
+        commentDiv.textContent = entry.comment;
+        console.log(entry);
+
+        // add new table elements to table
+        nameRow.appendChild(nameData);
+        commentData.appendChild(commentDiv);
+        commentRow.appendChild(commentData);
+        table.prepend(commentRow);
+        table.prepend(nameRow);
     });
-});
+}
 
-// insert colspan of comments to spread across the field
-document.addEventListener("DOMContentLoaded", () => {
-    const commentCells = document.querySelectorAll("td:has(.comment)");
-    commentCells.forEach(cell => {
-        cell.setAttribute("colspan", "2");
-    });
-});
+document.getElementById("guestbook-form").addEventListener("submit", function (event) {
+    event.preventDefault();
+    // fetch guestbook data and form data
+    let entries = JSON.parse(localStorage.getItem("guestbookEntries")) || [];
+    let name = document.getElementById("inputName").value.trim();
+    let comment = document.getElementById("inputComment").value.trim();
 
+    // add form data to the list and store the updated list
+    entries.push({name, comment});
+    localStorage.setItem("guestbookEntries", JSON.stringify(entries));
+
+    event.target.reset();
+    location.reload();
+})
+
+// guestbook handler END *************************************
+    //
+    //
 
 // Smooth scroll to top 
 document.getElementById("backToTop").addEventListener("click", function (event) {

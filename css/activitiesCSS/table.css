@@ -39,3 +39,7 @@ button.read-more {
     border: none;
     cursor: pointer;
 }
+
+button.read-more:hover {
+    text-decoration: underline;
+}
