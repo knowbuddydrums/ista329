@@ -87,3 +87,8 @@ main p {
     height: auto;
     margin-bottom: 1rem;
 }
+
+li{
+
+    list-style: none;
+}
