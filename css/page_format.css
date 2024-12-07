@@ -44,23 +44,23 @@ nav ul li a {
 }
 
 .home:hover {
-    background-color: #0E6BA8;
+    background-color: #0E6BA9;
 }
 
 .about-us:hover {
-    background-color: #FF7F2A;
+    background-color: #E53935;
 }
 
 .history:hover {
-    background-color: #F4C300;
+    background-color: #369639;
 }
 
 .gameplay:hover {
-    background-color: #4CAF50;
+    background-color: #b911b9;
 }
 
 .legends:hover {
-    background-color: #A000A0;
+    background-color: #369639;
 }
 
 .guest:hover {
@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 .contact:hover {
-    background-color: #0E6BA8;
+    background-color: #0E6BA9;
 }
 
 /* --- FOOTER SECTION FOR TETRIS RESOURCES --- */
