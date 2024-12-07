@@ -69,26 +69,33 @@
 
 
     <main>
-        <!-- Form -->
-        <form action="https://api.web3forms.com/submit" method="post">
-            <input type="hidden" name="access_key" value="ca5c1f61-9438-4ae0-903a-a04cac5d29ff">
-            <div class="input-box-wrapper">
-                <p>
-                    <input type="text" id="name" name="name" placeholder="Name" autocomplete="off" required>
-                </p>
+	    <!-- Form -->
+		<form id="guestbook-form">
+			<div class="input-box-wrapper">
+				<p>
+					<input type="text" id="inputName" name="inputName" placeholder="Name" aria-label="name entry cell" autocomplete="off" required>
+				</p>
 
-                <p>
-                    <textarea id="message" name="message" rows="3" cols="60" placeholder="Comment..." autocomplete="off"
-                        required></textarea>
-                </p>
-
-                <button class="input" type="submit">Sign</button>
-            </div>
-
-        </form>
+				<p>
+					<textarea id="inputComment" name="inputComment" rows="3" cols="60" placeholder="Comment..." aria-label="comment entry cell" autocomplete="off" required></textarea>
+				</p>
+				
+				<button class="input" type="submit">Sign</button>
+			</div>
+			
+		</form>
 
 
-        <table>
+        <table id="guestbook-table">
+            <tr>
+                <th id="name">Taylor Hollman</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="comment">It was such a pleasure working with you all! I had a lot of fun, learned a lot, and I'm really proud of what we made together! Good luck in your future endeavors, all of you &lt3 </div>
+                </td>
+            </tr>
+            <tr>
             <tr>
                 <th id="name">Patrick Star</th>
             </tr>
@@ -98,10 +105,11 @@
                 </td>
             </tr>
             <tr>
-                <th id="name">Spongebob Squarepants</th>
+                <th id="name">Alexey Pajitnov</th>
             </tr>
             <tr>
                 <td>
+<<<<<<< HEAD
                     <div class="comment">I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY
                         I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M
                         READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY I'M READY
@@ -136,6 +144,9 @@
                         shall have a new birth of freedom—and that government of the people, by the people, for the
                         people, shall not perish from the earth.</div>
                     <button class="read-more">expand</button>
+=======
+                <div class="comment">Good ideas have no borders.</div>
+>>>>>>> guestbook2
                 </td>
             </tr>
         </table>

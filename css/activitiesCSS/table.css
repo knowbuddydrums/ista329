@@ -25,17 +25,8 @@ table #name {
 
 .comment {
     font-size: 20px;
-    max-height: 3.6rem;
     padding: 0.4rem 1rem 1rem;
     overflow: hidden;
     transition: max-height 0.3s ease;
     display: block;
-}
-
-button.read-more {
-    color: #ffcc00;
-    padding-bottom:1rem;
-    background: none;
-    border: none;
-    cursor: pointer;
 }
