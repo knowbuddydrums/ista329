@@ -74,27 +74,6 @@ a {
     margin: 0;
 }
 
-<<<<<<< HEAD
-/* LOGO STYLING 
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-}
-*/
-
-.logo img {
-    max-width: 1024px;
-    max-height: 149px;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-
-=======
->>>>>>> 3ca19a0ff31337cb73fde88a62522239634f2cea
 /* CONTENT SECTION STYLING */
 .content {
     padding: 20px;
