@@ -70,11 +70,10 @@ input:focus, textarea:focus {
 	background-color: #ffcc00;
 	border: 1px solid black;
 	border-radius: 20px;
-    padding: 3px 20px;
 	align-items: center;
 	font-family: Arial, sans-serif;
 	font-size: 24px;
-	padding: 40px, 60px;
+	padding: 5px 12px;
 	width: auto; 
 	display: flex;
 	cursor: pointer;
