@@ -1,5 +1,4 @@
-// guestbook handler BEGIN ************************************
-
+// load guestbook entries from localStorage
 document.addEventListener("DOMContentLoaded", loadEntries);
 
 function loadEntries() {
@@ -32,6 +31,7 @@ function loadEntries() {
     });
 }
 
+// add new entry to localStorage
 document.getElementById("guestbook-form").addEventListener("submit", function (event) {
     event.preventDefault();
     // fetch guestbook data and form data
@@ -46,10 +46,6 @@ document.getElementById("guestbook-form").addEventListener("submit", function (e
     event.target.reset();
     location.reload();
 })
-
-// guestbook handler END *************************************
-    //
-    //
 
 // Smooth scroll to top 
 document.getElementById("backToTop").addEventListener("click", function (event) {

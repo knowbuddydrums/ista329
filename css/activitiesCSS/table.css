@@ -31,15 +31,3 @@ table #name {
     transition: max-height 0.3s ease;
     display: block;
 }
-
-button.read-more {
-    color: #ffcc00;
-    padding-bottom:1rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-button.read-more:hover {
-    text-decoration: underline;
-}
