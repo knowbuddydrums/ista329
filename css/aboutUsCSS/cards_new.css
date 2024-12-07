@@ -71,7 +71,6 @@
     z-index: 1;
 }
 
-
 .card.flipped .card-front {
     transform: rotateY(180deg);
     z-index: 1;
