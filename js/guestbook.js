@@ -16,7 +16,7 @@ function loadEntries() {
         let commentDiv = document.createElement("div");
 
         //populate table elements
-        nameData.id = "name";
+        nameData.className = "name";
         nameData.textContent = entry.name;
         commentDiv.className = "comment";
         commentDiv.textContent = entry.comment;
