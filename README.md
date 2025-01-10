@@ -1,7 +1,7 @@
 
 Authors:
 Yen L [ylai1@arizona.edu](mailto:ylai1@arizona.edu), 
-Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu),  
+Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu) [Jezielbgon@gmail.com](mailto:jezielbgon@gmail.com),  
 Buddy [buddy@arizona.edu](buddy@arizona.edu), 
 Tay [thollman@arizona.edu](mailto:thollman@arizona.edu),
 Jenny [jennyyu@arizona.edu](mailto:jennyyu@arizona.edu)
